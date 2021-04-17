@@ -1,5 +1,5 @@
 State,2010,2011,2012,2013,2014
-Andhra Pd.,3,6,2,1,3
+ANDHRA_PD,3,6,2,1,3
 Arunachal Pd.,0,0,0,0,0
 Assam,2,0,5,2,0
 Bihar,0,0,3,5,0
@@ -10,27 +10,27 @@ Haryana,20,3,2,5,2
 Himachal Pd.,0,0,0,2,0
 J & K,0,0,1,3,0
 Jharkhand,0,0,0,0,0
-Karnataka,7,5,21,12,0
+KARNATAKA,7,5,21,12,0
 Kerala,17,10,15,29,9
 Madhya Pd.,1,0,6,9,12
 Meghalaya,0,0,2,0,0
-Maharashtra,5,25,59,48,29
+MAHARASHTRA,5,25,59,48,29
 Manipur,0,0,0,0,0
 Mizoram,0,0,0,0,0
 Nagaland,0,0,0,0,0
 Orissa,5,33,6,6,9
 Punjab,15,33,9,25,2
-Rajasthan,9,4,10,10,6
+RAJASTHAN,9,4,10,10,6
 Sikkim,0,0,0,0,0
-Tamil Nadu,8,9,66,0,0
+TAMIL_NADU,8,9,66,0,0
 Tripura,0,0,0,0,0
 Telangana,0,0,0,0,0
-Uttar Pradesh,8,5,4,5,0
+UTTAR_PD,8,5,4,5,0
 Uttrakhand,0,5,2,0,0
 West Bengal,1,0,11,6,3
 A&N Island,0,0,0,0,0
 Chandigarh,0,0,2,0,0
-Delhi,8,8,4,6,3
+DELHI,8,8,4,6,3
 D&N Haveli,0,0,1,0,1
 Daman & Diu,0,0,0,0,0
 Puducherry,0,3,5,0,0
