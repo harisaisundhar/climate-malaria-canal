@@ -1,4 +1,4 @@
 .vscode
 .DS_Store
-front-end/clr/node_modules
-front-end/clr/.gitignore
+clr/node_modules
+clr/.gitignore
