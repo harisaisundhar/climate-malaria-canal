@@ -1,6 +1,7 @@
 import Abstract from './Docs/Abst.pdf';
 import Report from './Docs/Abst.pdf';
 import Presentation from './Docs/Pres.pdf';
+import { Link } from 'react-router-dom';
 
 function Materials() {
   return (
@@ -8,7 +9,7 @@ function Materials() {
           <br></br>
            <h1 class="font-medium title-font text-gray-900 mb-1 text-xl text-center">Materials</h1><hr></hr>
 
-  <div class="container px-1 py-10 mx-auto flex flex-wrap">
+  <div class="container px-1 py-9 mx-auto flex flex-wrap">
     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
       <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
         <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -100,9 +101,11 @@ function Materials() {
         </div>
       </div>
     </div>
-    
-  </div>
-</section>
+   
+      </div>
+       <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"><Link to ='/'>Done</Link></button>
+<br></br>
+    </section>
   );
 }
 
