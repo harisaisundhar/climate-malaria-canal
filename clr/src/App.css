@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.sqphoto {
+  height: 300px;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.kunjus {
+  padding-bottom: 2%;
+}
