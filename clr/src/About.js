@@ -4,6 +4,7 @@ import Logo from "./Images/S1.png";
 import { Link } from 'react-router-dom';
 import Abs from './Docs/Abst.pdf';
 import Pap from './Docs/Abst.pdf';
+
 function About() {
     return (
         <section class="text-gray-600 body-font">
@@ -44,7 +45,7 @@ function About() {
         </div>
         <div class="flex-grow">
           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Rainfall</h2>
-          <p class="leading-relaxed text-base">BIn regions already affected by the disease, the impact of climate on malaria is mainly related to changing rainfall patterns, or increased flooding risk.</p>
+          <p class="leading-relaxed text-base">In regions already affected by the disease, the impact of climate on malaria is mainly related to changing rainfall patterns, or increased flooding risk.</p>
           <a class="mt-3 text-indigo-500 inline-flex items-center"><Link to ='/rain'>Learn More</Link>
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -96,8 +97,9 @@ function About() {
 The life cycles and transmission of most infectious agents are inextricably linked with climate. This research revolves around analysing how the factors of climate influences its developments and spreading.<br></br>
 </p>
                     <div class="justify-center">
-                        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a href={Abs} download="Abstract.pdf"> Download Abstract </a></button>
-                        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Explore Outcomes</button>
+                        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><Link to ='/materials'>Download Materials</Link></button>
+                        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><Link to ='/outcomes'>Explore Outcomes</Link></button>
+                        <button class="ml-4 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><Link to ='/references'>References</Link></button>
                     </div>
                 </div>
             </div>
