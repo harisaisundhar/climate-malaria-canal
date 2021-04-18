@@ -44,6 +44,22 @@
   margin: 0 auto;
 }
 
-.kunjus {
-  padding-bottom: 2%;
+.logop {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap");
+
+header {
+  background-color: #d89216;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "Arimo", sans-serif;
+}
+
+footer {
+  background-color: #f7f3e9;
 }

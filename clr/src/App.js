@@ -10,7 +10,7 @@ function App() {
     <main>
     <Switch>
         <Route exact path='/' component={About} />
-        <Route exact path ='/rain' component={Rain} />
+        <Route exact path='/rain' component={Rain} />
     </Switch>
     </main>
   );
