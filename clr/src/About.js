@@ -190,7 +190,7 @@ The life cycles and transmission of most infectious agents are inextricably link
                         <center>
                             
       <p class="text-gray-500 text-sm text-center ">With Passion —
-        <a rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">Harisai & Sathwick</a>
+        <a rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">Harisai & Sathwik</a>
       </p>
                         </center>
     </div>
