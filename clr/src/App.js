@@ -8,6 +8,7 @@ import Materials from './Materials.js'
 import Outcomes from './Outcomes.js'
 import References from './References.js'
 import Air from './Air.js'
+import Climate from './Climate.js'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path='/' component={About} />
         <Route exact path='/rain' component={Rain} />
         <Route exact path='/air' component={Air} />
+        <Route exact path='/climate' component={Climate} />
         <Route exact path='/materials' component={Materials} />
         <Route exact path='/references' component={References} />
         <Route exact path='/outcomes' component={Outcomes} />

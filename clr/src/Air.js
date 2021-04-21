@@ -6,7 +6,7 @@ import A5 from "./Images/A5.png";
 import A6 from "./Images/A6.png";
 import A7 from "./Images/A7.png";
 
-function Rainfall() {
+function Air() {
   return (
   <section className="text-gray-600 body-font">
     <div className="container px-5 py-24 mx-auto">
@@ -63,7 +63,8 @@ function Rainfall() {
                 <div className = "overflow-x-auto">
                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Dig 3</h3>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Heat-Map</h2>
-                <p className="leading-relaxed text-base">The climate of India consists of a wide range of weather conditions across a vast geographic scale and varied topography, making generalizations difficult. Climate in South India is generally hotter and extremely humid than that of North India. South India is more humid due to nearby coasts. </p>
+                <p className="leading-relaxed text-base">Heat Map Chart, or Heatmap is a two-dimensional visual representation of data, where values are encoded in colors, delivering a convenient, insightful view of information. Essentially, this chart type is a data table with rows and columns denoting different sets of categories.
+                Over here correlation between different elemets is shown.</p>
                 </div>
             </BackSide>
           </Flippy>
@@ -73,14 +74,18 @@ function Rainfall() {
             <FrontSide style={{ backgroundColor: '#d8e3e7' }}>                  
             <img className="sqphoto items-centre" src={A5} alt="content"></img>
             <br></br>
-            <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center">Correlation analysis</h2>
+            <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center">Air Elements</h2>
             </FrontSide>
             <BackSide style={{ backgroundColor: '#d8e3e7' }}>
                 <div className = "overflow-x-auto">
                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Dig 4</h3>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Correlation analysis</h2>
-                <p className="leading-relaxed text-base">The Relationship between Rainfall and Temperature. The physical rationale behind the relationship between rainfall and temperature is that rainfall may affect soil moisture which may in turn affect surface temperature by controlling the partitioning between the sensible and latent heat fluxes</p>
-                </div>
+                <p className="leading-relaxed text-base">Line graphs are used to track changes over short and long periods of time. This line chart shows <br></br>
+                NO2<br></br>
+                PM2.5<br></br>
+                PM10<br></br>
+                NOx<br></br>
+                values for the past 5 years.(2015-2020)</p></div>
             </BackSide>
           </Flippy>
         </div>
@@ -94,8 +99,13 @@ function Rainfall() {
             <BackSide style={{ backgroundColor: '#d8e3e7' }}>
                 <div className = "overflow-x-auto">
                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Dig 4</h3>
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Correlation analysis</h2>
-                <p className="leading-relaxed text-base">The Relationship between Rainfall and Temperature. The physical rationale behind the relationship between rainfall and temperature is that rainfall may affect soil moisture which may in turn affect surface temperature by controlling the partitioning between the sensible and latent heat fluxes</p>
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Air Elements</h2>
+                <p className="leading-relaxed text-base">This line chart shows<br></br> 
+                SO2<br></br>
+                NH3<br></br>
+                CO<br></br>
+                O3<br></br>
+                values for the past 5 years.(2015-2020)</p>
                 </div>
             </BackSide>
           </Flippy>
@@ -105,13 +115,18 @@ function Rainfall() {
             <FrontSide style={{ backgroundColor: '#d8e3e7' }}>                  
             <img className="sqphoto items-centre" src={A7} alt="content"></img>
             <br></br>
-            <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center">Correlation analysis</h2>
+            <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center">Air Elements</h2>
             </FrontSide>
             <BackSide style={{ backgroundColor: '#d8e3e7' }}>
                 <div className = "overflow-x-auto">
                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Dig 4</h3>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Correlation analysis</h2>
-                <p className="leading-relaxed text-base">The Relationship between Rainfall and Temperature. The physical rationale behind the relationship between rainfall and temperature is that rainfall may affect soil moisture which may in turn affect surface temperature by controlling the partitioning between the sensible and latent heat fluxes</p>
+                <p className="leading-relaxed text-base">This line chart shows 
+                <br></br>
+                Xylene<br></br>
+                Benzene<br></br>
+                Toluene<br></br>
+                values for the past 5 years.(2015-2020)</p>
                 </div>
             </BackSide>
           </Flippy>
@@ -122,4 +137,4 @@ function Rainfall() {
   );
 }
 
-export default Rainfall;
+export default Air;
